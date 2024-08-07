@@ -44,7 +44,7 @@ router.get('/logout',(req,res)=>{
             return next(err);
         }
         req.flash('success','logged out successfully')
-        res.redirect('/campgrounds');
+        res.redirect('/');
     })
 })
 
